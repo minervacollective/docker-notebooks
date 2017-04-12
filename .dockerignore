@@ -1,0 +1,5 @@
+# Ignore documentation
+README.md
+
+# Ignore git files
+.git
