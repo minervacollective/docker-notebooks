@@ -1,18 +1,20 @@
 # docker-notebooks
 Provides Minerva Collective analysts a consistent environment when working on projects
 
-Installation:
-Install docker <link to docker docs here>
-git clone <this repo>
+# Installation:
+## Linux
 
-cd into this repo
-`docker build . -t minerva`
+* Install docker [link to docker docs here]  
+* Install git: `sudo apt-get install git`
+* git clone [this repo]
+* cd into this repo
+* `docker build . -t minerva`
 
-Running:
-`docker run -it -p 8888:8888 minerva`
-Copy the link in the terminal and paste in your browser.
+## Running:
+* `docker run -it -p 8888:8888 minerva`
+* Copy the link in the terminal and paste in your browser.
 
-To close:
-Ctrl-C in the terminal twice.
+## Stopping:
+* Ctrl-C in the terminal twice.
 
 
